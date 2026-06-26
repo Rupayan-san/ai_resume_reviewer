@@ -1,0 +1,35 @@
+{
+  "name": "ai_resume_reviewer",
+  "version": "1.0.0",
+  "description": "put your resume and get a review",
+  "homepage": "https://github.com/Rupayan-san/ai_resume_reviewer#readme",
+  "bugs": {
+    "url": "https://github.com/Rupayan-san/ai_resume_reviewer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rupayan-san/ai_resume_reviewer.git"
+  },
+  "license": "ISC",
+  "author": "Rupayan",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --exec tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.0",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
